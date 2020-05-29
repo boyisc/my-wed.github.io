@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.float{
+    float: left;
+}
+.back{
+   height: 100%;
+   width: 100%;
+}
+.heat{
+    height: 50px;
+    width: 100%;
+    background: rgba(000, 000, 000, 1);
+    line-height: 50px;
+}
+.clearFloat:after{
+    content: "";
+    height: 0;
+    display: block;
+    visibility:hidden;
+    clear: both;
+}
+.clearFloat{
+    zoom: 1;
+}
+.zhi{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.s{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.zhi{
+    float: left;
+    margin-right: 20px;
+   
+}
+.p{
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.6);
+}
+.a{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.n{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.scread{
+    float: right;
+    margin-right: 10px;
+}
+.scread>input{
+    border-radius: 5px;
+    height: 30px;
+}
+.scread>button{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border:1px solid rgba(255, 255, 255, 0.5);
+}
+.bink{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(232, 236, 239);
+    padding-top: 1px;
+}   
+.rong{
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
+.hello{
+    margin-top: 60px;
+    font-size: 60px;
+    color: black;
+    font-family: Microsoft jhengHei Light; 
+}
+.tes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bott{
+    padding-top: 10px;
+}
+
+.bott>button{
+    width: 150px;
+    height: 50px;
+    font-size:15px ;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+    
+}
+.box{
+    margin-right: 10px;
+    line-height: 50px;
+    padding-top: 20px;
+    width: 160px;
+    height: 500px;
+}
+.duo{
+    font-size: 20px;
+}
