@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearFloat:after{
+	content: "";
+	height: 0;
+	display: block;
+	visibility:hidden;
+	clear: both;
+}
+.clearFloat{
+	zoom:1;
+}
+.box{
+	width: 100%;
+	overflow: hidden;
+}
+.top{
+	width: 1200px;
+	background-color: black;
+	margin: 0 auto;
+}
+.one{
+	width: 85PX;
+	height: 30px;
+	background-color: black;
+	color: white;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12PX;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.one:hover{
+	background-color: orange;
+}
+.primat{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: red;
+}
+.primat>img{
+	width: 1200px;
+	margin-bottom: 1px;
+}
+.two{
+	width: 900px;
+	background-color: rgb(26,28,30);
+	padding: 1px 150px;
+}
+.text{
+	width: 300px;
+	color: white;
+	height: 180px;
+	margin: 69px 0;
+	float: 	left;
+}
+.re{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.er{
+	font-size: 9px;
+	margin-bottom: 5px;
+	color: rgb(112,136,134);
+}
+.es{
+	font-size: 10px;
+	margin-top: 6px;
+	color: rgb(112,134,136);
+	margin-bottom: 21px;
+}
+.au{
+	font-size: 11px;
+	font-family: "comic sans ms";
+	color: rgb(112,134,136);
+	margin-bottom: 3px;
+}
+.as{
+	font-size: 9px;
+	font-family: "comic sans ms";
+	color: rgb(112,134,136);
+	margin-bottom: 3px;
+}
+.ai{
+	font-size:11px ;
+	margin-top: 10px;
+	color: rgb(112,134,136);
+	margin-bottom: 4px;
+}
+.a{
+	font-size: 9px;
+	font-family: "comic sans ms";
+	color: rgb(112,134,136);
+	margin-top: 20px;
+}
+.white{
+	width: 1200px;
+	margin: 0 auto;
+}
+.gallery{
+	width: 1200px;
+	height: 100px;
+	text-align: center;
+	line-height: 110px;
+	margin: 0 auto;
+}
+.pot>img{
+	width: 300px;
+	margin: 10px;
+	float: left;
+	transition: all 0.6s;
+}
+.pot{
+	margin: 0 120px;
+	margin-bottom: 80px;
+}
+.pot>img:hover{
+	transform: scale(1.1);
+}
+.zoom{
+	width: 1200px;
+	padding: 50px 0;
+	background-color: rgb(241,243,245);
+}
+.zo{
+	width: 510px;
+	margin-left: 90px;
+	color:rgb(112,134,136);
+	float: left;
+}.zan{
+	margin-bottom: 20px;
+}
+.om{
+	width: 500px;
+	float: left;
+	margin-left: 10px;
+}
+.om>img{
+	width: 500px;
+}
+.wei{
+	width: 1200px;
+	background-color: #FFA500;
+	padding-top: 3px ;
+}
+.back{
+	width: 1200px;
+	background-color: rgb(26,28,30);
+	padding: 100px 0;
+}
+.us{
+	padding-left: 50px;
+	color: rgb(112,134,136);
+	width: 330px;
+	height: 200px;
+	float: left;
+}
+.z{
+	font-size: 14px;
+}
+.post{
+	margin-left: 20px;
+	color: rgb(112,134,136);
+	width: 330px;
+	height: 200px;
+	float: left;
+}
+.in{
+	width: 330PX;
+	height: 40px;
+	background-color: rgb(26,28,30);
+	border: none;
+	border-bottom: 1px solid rgb(112,134,136);
+}
+.fangkuai{
+	border: 1px solid rgb(112,134,136);
+	float: left;
+	padding: 5px;
+	margin: 2px;
+	font-size: 15px;
+}
+.col{
+	width: 1200px;
+	height: 60px;
+	background-color: rgb(0,0,0);
+	color: white;
+}
+.ect{
+	margin: 0 auto;
+	margin:  20px 100px;
+	float: left;
+	font-size: 7px;
+}
+.t{
+	margin: 0 auto;
+	margin:  20px 100px;
+	float: right;
+	font-size: 7px;
+	color: rgb(225,115,24);
+	}
